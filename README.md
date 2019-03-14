@@ -67,7 +67,7 @@ docker swarm init
 
 7.Once Docker initiates the swarm setup, you will be presented with a command to add additional worker nodes. Below is an example.
 ```markdown
-docker swarm join --token SWMTKN-1-5a9uyyoxdcnzbn4auf4hyx7bfyn6vgl1w80e34z15ubf7jnxtc-0r5zhs8xo9zjl9feciwcpwnk2 192.168.93.231:2377
+docker swarm join --token <token-key> 192.168.93.231:2377
 ```
 a. on each worker node paste the text in step 7
 
